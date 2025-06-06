@@ -4,8 +4,8 @@ import java.util.Date;
 
 public class Main {
     public static void main(String[] args) {
-        final int N=1000000;
-        figurePrime f1 =new figurePrime();
+        final int N=100000000;
+        prime1 f1 =new prime1();
         Date startdate=new Date();
         f1.figurePrime(N);
         Date finishdate=new Date();
